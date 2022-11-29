@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns00001000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns10111000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
   <layouts>
-    <layout name="npnxnanbsnfns00001000101" font="Lato" controllayout="npnxnanbsnfns00001000101" colorscheme="npxnabnsnfns00001000101" string_table="npxnabnsnfns00001000101" />
-    <layout name="pxabnsnfns00001000101" font="Lato" controllayout="pxabnsnfns00001000101" colorscheme="npxnabnsnfns00001000101" string_table="npxnabnsnfns00001000101" />
-    <layout name="npxnabnsnfns00001000101" font="Lato" controllayout="npxnabnsnfns00001000101" colorscheme="npxnabnsnfns00001000101" string_table="npxnabnsnfns00001000101" />
-    <layout name="npnxnanbnsnfns00001000101" font="Lato" controllayout="npnxnanbnsnfns00001000101" colorscheme="npxnabnsnfns00001000101" string_table="npxnabnsnfns00001000101" />
-    <layout name="pxabnsnfns00001000100" font="Lato" controllayout="pxabnsnfns00001000100" colorscheme="npxnabnsnfns00001000101" string_table="npxnabnsnfns00001000101" />
+    <layout name="npnxnanbsnfns10111000101" font="Lato" controllayout="npnxnanbsnfns10111000101" colorscheme="npxnabnsnfns10111000101" string_table="npxnabnsnfns10111000101" />
+    <layout name="pxabnsnfns10111000101" font="Lato" controllayout="pxabnsnfns10111000101" colorscheme="npxnabnsnfns10111000101" string_table="npxnabnsnfns10111000101" />
+    <layout name="npxnabnsnfns10111000101" font="Lato" controllayout="npxnabnsnfns10111000101" colorscheme="npxnabnsnfns10111000101" string_table="npxnabnsnfns10111000101" />
+    <layout name="npnxnanbnsnfns10111000101" font="Lato" controllayout="npnxnanbnsnfns10111000101" colorscheme="npxnabnsnfns10111000101" string_table="npxnabnsnfns10111000101" />
+    <layout name="pxabnsnfns10111000100" font="Lato" controllayout="pxabnsnfns10111000100" colorscheme="npxnabnsnfns10111000101" string_table="npxnabnsnfns10111000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -59,14 +59,14 @@
       <optiongroup name="controls">
         <options>
           <option name="volume" value="true" />
-          <option name="seekbar" value="false">
+          <option name="seekbar" value="true">
             <options>
               <option name="readonly" value="false" />
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
-          <option name="pauseplay" value="false" />
-          <option name="replay" value="false" />
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
           <option name="search" value="false" />
           <option name="closed_captions" value="true">
             <options>
@@ -74,7 +74,7 @@
             </options>
           </option>
           <option name="settings" value="true" />
-          <option name="fullScreenToggle" value="false" />
+          <option name="fullScreenToggle" value="true" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -84,25 +84,25 @@
       </optiongroup>
       <optiongroup name="buttonoptions">
         <options>
-          <option name="next" value="icon" />
-          <option name="previous" value="icon" />
-          <option name="submit" value="icon" />
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
         </options>
       </optiongroup>
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00001000101">
+    <control_layout name="npnxnanbsnfns10111000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -116,17 +116,17 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001000101">
+    <control_layout name="pxabnsnfns10111000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -140,17 +140,17 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00001000101">
+    <control_layout name="npxnabnsnfns10111000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -164,17 +164,17 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001000101">
+    <control_layout name="npnxnanbnsnfns10111000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -188,17 +188,17 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001000100">
+    <control_layout name="pxabnsnfns10111000100">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -214,7 +214,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npxnabnsnfns00001000101">
+    <colorscheme name="npxnabnsnfns10111000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1391,7 +1391,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npxnabnsnfns00001000101">
+    <string_table name="npxnabnsnfns10111000101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1558,7 +1558,7 @@
             <slidelink slideid="_player.6WQlNiXxT1I.6j8ERwEN0ES" displaytext="Planes" expand="false" type="slide" />
             <slidelink slideid="_player.6WQlNiXxT1I.6jEzfO06SNJ" displaytext="Spine Form and Function" expand="false" type="slide" />
             <slidelink slideid="_player.6WQlNiXxT1I.6V2PztQN8O5" displaytext="Spinal Alignment" expand="false" type="slide" />
-            <slidelink slideid="_player.6WQlNiXxT1I.6N98hI5hFoB" displaytext="Bone Structures Video" expand="false" type="slide" />
+            <slidelink slideid="_player.6WQlNiXxT1I.5Z8h2EwGz3E" displaytext="Bone Structures Video" expand="false" type="slide" />
             <slidelink slideid="_player.6WQlNiXxT1I.65Xyf139ESN" displaytext="Review Instructions" expand="false" type="slide" />
             <slidelink slideid="_player.6WQlNiXxT1I.6b08xeuxIQR" displaytext="Structure ID Activity 1" expand="false" type="slide" />
             <slidelink slideid="_player.6WQlNiXxT1I.5WgSqVzg0JI" displaytext="Structure ID Activity 2" expand="false" type="slide" />
